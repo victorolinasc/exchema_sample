@@ -1,0 +1,2 @@
+defmodule SimpleApiAuth do
+end

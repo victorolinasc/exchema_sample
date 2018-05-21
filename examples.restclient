@@ -1,0 +1,19 @@
+# -*- restclient -*-
+
+#
+# Example PUT user
+# 
+PUT http://127.0.0.1:4000/users
+content-type: application/json
+
+{
+  "first_name": "Victor",
+  "last_name": "Nascimento",
+  "email": "test@gmail.com"
+}
+
+#
+# Example GET user
+#
+GET http://127.0.0.1:4000/users/1bf80595-1217-4999-991e-cc6aa315c0f2
+
